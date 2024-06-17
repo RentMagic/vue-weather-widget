@@ -1,8 +1,8 @@
 {
-  "name": "vue-weather-widget",
-  "version": "4.13.0",
+  "name": "@rentmagic/vue-weather-widget",
+  "version": "4.14.0",
   "description": "Weather forecast widget for Vuejs using DarkSky api",
-  "exportName": "rentmagic/vue-weather-widget",
+  "exportName": "vue-weather-widget",
   "main": "src/index.js",
   "module": "examples/static/dist/js/vue-weather-widget.esm.js",
   "unpkg": "examples/static/dist/js/vue-weather-widget.min.js",
