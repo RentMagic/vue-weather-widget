@@ -1,12 +1,11 @@
 {
   "name": "@rentmagic/vue-weather-widget",
-  "version": "4.16.0",
+  "version": "4.17.0",
   "description": "Weather forecast widget for Vuejs using DarkSky api",
   "exportName": "vue-weather-widget",
   "main": "src/index.js",
   "module": "examples/static/dist/js/vue-weather-widget.esm.js",
   "unpkg": "examples/static/dist/js/vue-weather-widget.min.js",
-  "private": false,
   "browser": {
     "VueWeatherWidget": "src/VueWeatherWidget.vue"
   },
@@ -17,9 +16,9 @@
   "scripts": {
     "lint": "eslint src",
     "lint-fix": "eslint --fix src",
-    "patch": "npm version patch --no-git-tag-version && git add package.json package-lock.json && git commit -m \"Update version:patch\" && git push && npm publish",
-    "minor": "npm version minor --no-git-tag-version && git add package.json package-lock.json && git commit -m \"Update version:minor\" && git push && npm publish",
-    "major": "npm version major --no-git-tag-version && git add package.json package-lock.json && git commit -m \"Update version:major\" && git push && npm publish"
+    "patch": "npm version patch --no-git-tag-version && git add package.json package-lock.json && git commit -m \"Update version:patch\" && git push && npm publish --access public",
+    "minor": "npm version minor --no-git-tag-version && git add package.json package-lock.json && git commit -m \"Update version:minor\" && git push && npm publish --access public",
+    "major": "npm version major --no-git-tag-version && git add package.json package-lock.json && git commit -m \"Update version:major\" && git push && npm publish --access public"
   },
   "repository": {
     "type": "git",
